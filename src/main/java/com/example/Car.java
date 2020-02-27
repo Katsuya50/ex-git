@@ -1,11 +1,22 @@
 package com.example;
 
+import java.util.Date;
+
 public class Car {
 	
 	private String name;
 	private Integer speed;
 	private String color;
+	private Date madeDate;
 	
+	public Date getMadeDate() {
+		return madeDate;
+	}
+
+	public void setMadeDate(Date madeDate) {
+		this.madeDate = madeDate;
+	}
+
 	public Car() {
 	}
 	
