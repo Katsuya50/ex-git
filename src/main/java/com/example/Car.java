@@ -1,14 +1,30 @@
 package com.example;
 
+<<<<<<< HEAD
 import java.time.LocalDate;
+=======
+import java.util.Date;
+>>>>>>> feature/login
 
 public class Car {
 	
 	private String name;
 	private Integer speed;
 	private String color;
+<<<<<<< HEAD
 	private LocalDate today;
+=======
+	private Date madeDate;
+>>>>>>> feature/login
 	
+	public Date getMadeDate() {
+		return madeDate;
+	}
+
+	public void setMadeDate(Date madeDate) {
+		this.madeDate = madeDate;
+	}
+
 	public Car() {
 	}
 	
