@@ -5,10 +5,20 @@ public class Car {
 	private String name;
 	private Integer speed;
 	private String color;
+	private Integer price;
+	
 	
 	public Car() {
 	}
 	
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
 	public Car(String name, Integer speed, String color) {
 		super();
 		this.name = name;
