@@ -1,10 +1,13 @@
 package com.example;
 
+import java.time.LocalDate;
+
 public class Car {
 	
 	private String name;
 	private Integer speed;
 	private String color;
+	private LocalDate today;
 	
 	public Car() {
 	}
@@ -35,7 +38,15 @@ public class Car {
 	}
 	@Override
 	public String toString() {
-		return "Car [name=" + name + ", speed=" + speed + ", color=" + color + "]";
+		return "Car [name=" + name + ", speed=" + speed + ", color=" + color + ", today=" + today + "]";
+	}
+
+	public LocalDate getToday() {
+		return today;
+	}
+
+	public void setToday(LocalDate today) {
+		this.today = today;
 	}
 
 }
