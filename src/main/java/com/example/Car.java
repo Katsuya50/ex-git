@@ -12,9 +12,14 @@ public class Car {
 	private Integer speed;
 	private String color;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private LocalDate today;
 =======
 	private Date madeDate;
+>>>>>>> feature/login
+=======
+	private Integer price;
+	
 >>>>>>> feature/login
 	
 	public Date getMadeDate() {
@@ -28,6 +33,14 @@ public class Car {
 	public Car() {
 	}
 	
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
 	public Car(String name, Integer speed, String color) {
 		super();
 		this.name = name;
